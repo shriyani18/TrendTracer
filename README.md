@@ -32,8 +32,9 @@ Built on top of **ResNet50** with a sleek **Streamlit** interface, this tool is 
 ### 🛠️ Installation & Setup
 
 ```bash
-git clone https://github.com/yourusername/trend-tracer.git
-cd trend-tracer
+git clone https://github.com/shriyani18/TrendTracer.git
+cd TrendTracer
 python -m venv venv
-source venv/bin/activate  # or `venv\Scripts\activate` on Windows
+source venv/bin/activate  # (Use `venv\Scripts\activate` on Windows)
 pip install -r requirements.txt
+
