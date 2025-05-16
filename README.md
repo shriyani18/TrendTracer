@@ -9,9 +9,6 @@
 
 **GitHub Repository:** [Trend Tracer](https://github.com/shriyani18/TrendTracer)
 
-**Direct link to README (plain):**  
-[README.md plain view](https://github.com/shriyani18/TrendTracer/blob/main/README.md?plain=1)
-
 ---
 
 ### 🔍 What is Trend Tracer?
