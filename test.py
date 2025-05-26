@@ -12,7 +12,7 @@ import cv2 #for displaying images
 
 
 #loading feature list and convert it into array
-feature_list=np.array(pickle.load(open('embedings.pkl','rb')))
+feature_list=np.array(pickle.load(open('embeddings.pkl','rb')))
 filenames=pickle.load(open('filenames.pkl','rb'))
 
 
@@ -25,7 +25,7 @@ model = tensorflow.keras.Sequential([
 ])
 
 #calculating features of sample image
-img=image.load_img('samples/10001.jpg',target_size=(224,224))
+img = image.load_img('images/13016.jpg', target_size=(224, 224))
 img_array = image.img_to_array(img)
 expanded_img_array = np.expand_dims(img_array, axis=0)
 preprocessed_img= preprocess_input(expanded_img_array)
@@ -47,7 +47,7 @@ print(indices)
 # for displaying images
 for file in indices[0]:
     temp_img = cv2.imread(filenames[file])
-    temp_img = cv2.resize(temp_img, (510, 510))
+    temp_img = cv2.resize(temp_img, (600,600))
     temp_img = cv2.cvtColor(temp_img, cv2.COLOR_BGR2RGB)
     img = Image.fromarray(temp_img)
     img.show()

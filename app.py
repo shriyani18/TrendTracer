@@ -57,5 +57,5 @@ for file in tqdm(filenames):
 print(np.array(feature_list).shape)
 
 #extract features in file and write in binary mode
-pickle.dump(feature_list, open('embedings.pkl', 'wb'))
+pickle.dump(feature_list, open('embeddings.pkl', 'wb'))
 pickle.dump(filenames, open('filenames.pkl', 'wb'))  #names of the files
