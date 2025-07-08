@@ -1,10 +1,5 @@
 # 🚀 Trend Tracer
 
-![GitHub repo size](https://img.shields.io/github/repo-size/shriyani18/TrendTracer?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.7%2B-blue?style=for-the-badge)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?style=for-the-badge)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.x-green?style=for-the-badge)
-
 ---
 
 **GitHub Repository:** [Trend Tracer](https://github.com/shriyani18/TrendTracer)
